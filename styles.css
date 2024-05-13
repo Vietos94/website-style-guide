@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 40px 40px;
+}
+
+h1 {
+  margin: 0px 20px 40px;
+}
+
+.container {
+  border: 1px solid grey;
+  margin: 5px;
+}
+
+h2 {
+  margin: 1em;
+}
+
+.color-container {
+  display: grid;
+  grid-template: auto auto / auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  place-items: center;
+}
+
+.color-container > div {
+    text-align: center;
+}
+
+.color-panel {
+  border-radius: 90px;
+  float: right;
+}
+
+.color-container .primary {
+  height: 120px;
+  width: 120px;
+  background-color: #3D3839;
+}
+
+.color-container .secondary {
+  height: 120px;
+  width: 120px;
+  background-color: #FFC604;
+}
+
+.color-container .accent {
+  height: 120px;
+  width: 120px;
+  background-color: #FFC604;
+}
+
+.color-container .background {
+  height: 120px;
+  width: 120px;
+  background-color: #FAF0E6;
+}
+
+.font-container {
+  margin: 15px;
+}
+
+.carlito {
+  font-family: Carlito;
+  padding: 8px;
+}
+
+.font-label {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bold-italic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.styles-container {
+  padding: 20px;
+}
+
+li {
+  margin: 10px;
+  list-style-position: inside;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: Carlito;
+}
+
+.subheading {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Carlito;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Carlito;
+}
